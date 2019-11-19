@@ -44,6 +44,7 @@ for line in fp:
     ax.add_patch(rect)
 
 ax.set(xlim=(xmin, xmax), ylim=(ymin, ymax))
+plt.axis('off')
 
 fp.close()
 
